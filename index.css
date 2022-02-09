@@ -1,0 +1,912 @@
+.navbarhidden {
+  display:block;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+
+  margin-top: 76px;
+}
+.hiddenNavbar {
+  background-color: rgba(74, 20, 140, 0.91);
+  height: 100vh;
+  position: fixed;
+  display: none;
+  width: 100%;
+}
+.navbar-custom a {
+  color: white;
+}
+.nav-item {
+  padding-left: 38px;
+}
+.navbar-custom a:hover {
+  color: white;
+}
+.navbar-custom {
+  height: 52px;
+  margin-top: 26px;
+}
+.navbar-custom1 {
+  padding-top: 0px;
+  height: inherit;
+}
+.navbar-custom2 {
+  position: absolute;
+  right: 0px;
+}
+.navbtn-signup {
+  width: 172px;
+  height: 42px;
+
+  padding: 7px 30px 11px;
+  border-radius: 4px;
+  border: solid 1px white;
+  background-color: #3c276a;
+  text-align: center;
+}
+.signup-now-text {
+  height: 24px;
+  font-family: ProximaNova;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+}
+.banner1 {
+  background: url("Images_PNGS/group-4@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.banner1-inner {
+  /* margin-left: 10%;
+  margin-right: 10%; */
+}
+.banner1-innerstuff {
+  margin-top: 164px;
+  margin-bottom: 79px;
+  /* background-color: red; */
+}
+.banner1-text {
+  margin-top: 14px;
+
+  /* background-color: red; */
+}
+.banner1-heading1 {
+  width: 361px;
+  color: white;
+  height: 48px;
+  font-family: ProximaNova;
+  font-size: 40px;
+}
+.banner1-heading2 {
+  margin-top: 30px;
+  color: white;
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+}
+.banner1-mobile-heading-1 {
+  display: none;
+}
+
+.banner1-image {
+  width: 100%;
+}
+
+/* banner2 */
+.banner2-section {
+  background: url("Images_PNGS/rectangle-copy-16.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
+}
+.banner2 {
+  margin-top: 43px;
+
+  /* margin-left: 10%;
+  margin-right: 10%; */
+}
+.banner2-image {
+  width: 100%;
+}
+.banner2-text {
+  margin-top: 23%;
+}
+.banner2-heading1 {
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #613497;
+  font-family: ProximaNova;
+}
+.banner2-heading2 {
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: normal;
+  color: #1d1b44;
+}
+
+/* banner3 */
+.banner3 {
+  background: url("Images_PNGS/group-13.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner3-heading1 {
+  color: white;
+  margin-top: 45px;
+}
+.banner3-heading1-1 {
+  height: 47px;
+}
+.banner3-heading1-2 {
+  height: 61px;
+  font-family: ProximaNova;
+  font-size: 50px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+}
+.banner3-heading1-1 {
+  font-family: ProximaNova;
+  font-size: 39px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--white);
+}
+.banner3-heading1-3 {
+  height: 43px;
+}
+.dot-line {
+  width: 172px;
+  height: 3px;
+  background-color: white;
+  margin-left: 62px;
+}
+.dot-line:before {
+  content: "..";
+  display: block;
+  height: inherit;
+  width: inherit;
+  color: white;
+  position: absolute;
+  margin-top: -87px;
+  letter-spacing: 152px;
+  font-size: 4rem;
+  margin-left: -6px;
+}
+
+.dot-line:after {
+  content: ".....";
+  display: block;
+  height: inherit;
+  width: inherit;
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  margin-top: -111px;
+  letter-spacing: 152px;
+  font-size: 4rem;
+  margin-left: -6px;
+}
+.banner3-heading2 {
+  margin-top: 35%;
+  max-width: 524px;
+}
+.banner3-heading2-1 {
+  font-family: ProximaNova;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+.banner3-heading2-2 {
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 4.66px;
+  color: white;
+  margin-top: 32px;
+}
+.readmore {
+  text-transform: uppercase;
+}
+.banner3-heading2-2::after {
+  content: url("Images_PNGS/line-copy-2.png");
+  height: 3px;
+  width: 100px;
+  color: white;
+  position: relative;
+  bottom: 17px;
+  right: -288px;
+}
+
+/* Banner4 */
+.banner4-backimage {
+  opacity: 0.13;
+  width: 100%;
+  z-index: -1;
+  height: 389px;
+  position: absolute;
+}
+.banner4-heading1 {
+  height: 48px;
+
+  width: 325px;
+  text-align: end;
+  margin: auto;
+  font-family: ProximaNova;
+  font-size: 40px;
+  font-weight: bold;
+  color: #724aa3;
+  margin-top: 46px;
+}
+.banner4-heading2 {
+  width: 325px;
+  margin: auto;
+  margin-top: 4px;
+  text-align: end;
+  font-family: ProximaNova;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  height: 30px;
+}
+.banner4-cards {
+  text-align: center;
+  /* width: 265px; */
+  background: url("Images_PNGS/group-12.png");
+  background-color: none;
+  background-repeat: round;
+  padding: 23px 46px 39px 47px;
+  font-family: "Proxima";
+  object-fit: contain;
+  background-size: cover;
+  min-height: 430px;
+}
+.banner4-image {
+  margin-top: 23px;
+}
+.banner4-image-name {
+  font-family: ProximaNova;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  margin-top: 6px;
+}
+.banner4-imagelabel-free {
+  font-family: ProximaNova;
+  font-size: 54px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6635a0;
+}
+.banner4-imagelabel-price {
+  font-family: ProximaNova;
+  font-size: 54px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6635a0;
+}
+.banner4-imagelabel-price::before {
+  content: "$";
+  font-family: ProximaNova;
+  font-size: 23px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6635a0;
+  position: relative;
+  top: -26px;
+}
+
+.banner4-assetNo {
+  font-family: ProximaNova;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #444343;
+  margin-top: 8px;
+}
+.banner4-price-permonth {
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  margin-top: 10px;
+}
+.banner4-build-monthly {
+  font-family: ProximaNova;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #444343;
+}
+.banner4-btn {
+  padding: 9px 46px 9px 47px;
+  border-radius: 4px;
+  box-shadow: 0 3px 4px 1px #cdc5d6;
+  background-image: linear-gradient(to top, #6a38a5, #3c276a);
+  font-family: ProximaNova;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+  width: 172px;
+  margin: auto;
+  margin-top: 56px;
+}
+
+/* Banner5 */
+.banner5 {
+  background: url("Images_PNGS/group-16.png");
+  background-repeat: round;
+  background-size: cover;
+}
+.banner5-heading1 {
+  width: 100%;
+  height: 36px;
+  font-family: ProximaNova;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+  text-align: center;
+  margin-top: 115px;
+  margin-bottom: 31px;
+}
+
+/* Banner 6 */
+.banner6 {
+  background: url("Images_PNGS/bitmap.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner6-heading {
+  margin-top: 71px;
+  font-family: ProximaNova;
+
+  font-size: 32px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+.formlabel {
+  height: 17px;
+
+  opacity: 0.6;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  color: #4a148c;
+}
+
+.forminput {
+  width: 100%;
+  background: none;
+  border-width: 0px 0px 3px 0px;
+}
+.form-btn {
+  text-align: center;
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  padding: 12px 0px 12px 0px;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #6a38a5, #3c276a);
+  margin-bottom: 76px;
+  margin-top: 88px;
+}
+.form-btn-text {
+  height: 24px;
+  font-family: ProximaNova;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+}
+
+/* footer */
+.footor-custom {
+  background: url("Images_PNGS/background.png");
+  background-size: cover;
+  background-repeat: round;
+}
+.contactus,
+.followus {
+  height: 19px;
+
+  opacity: 0.6;
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+  margin-top: 43px;
+}
+.contactus {
+  margin-bottom: 28px;
+}
+.followus {
+  margin-bottom: 49px;
+}
+.contactus,
+.followus {
+  position: relative;
+}
+.followus::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 3px;
+  background: white;
+  position: absolute;
+  left: 0px;
+  bottom: -6px;
+}
+.contactus::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 3px;
+  background: white;
+  position: absolute;
+  left: 0px;
+  bottom: -6px;
+}
+
+.address,
+.phno,
+.email {
+  height: 26px;
+
+  opacity: 0.6;
+  font-family: ProximaNova;
+  font-size: 11px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+}
+.address {
+  margin-bottom: 17px;
+  width: 227px;
+}
+.phno {
+  margin-bottom: 24px;
+}
+
+/* lower footer */
+.lower-footer {
+  background-color: #000;
+  height: 56px;
+}
+.lower-footer-text {
+  height: 13px;
+
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 20px 0px 0px 0px;
+}
+
+/* media query */
+@media only screen and (max-width: 690px) {
+  .mobile-navbar {
+    width: 100%;
+    color: white;
+    list-style: none;
+    padding-left: 0px;
+    height: 100vh;
+  }
+  .mobile-navbar-items {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 37px;
+    height: 24px;
+    font-family: ProximaNova;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+  }
+  .navbar-custom {
+    height: 52px;
+    margin-top: 12px;
+  }
+  .banner1-heading1,
+  .banner1-heading2 {
+    text-align: center;
+  }
+  .banner1 {
+    background: url("Images_PNGS/bitmapbanner.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .banner1-text {
+    margin-top: 0px;
+
+    /* background-color: red; */
+  }
+  .banner1-mobile-heading-1 {
+    width: 100%;
+    margin-top: 29.7px;
+    text-align: center;
+    height: 17px;
+    display: block;
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+  }
+  .banner1-heading1 {
+    width: 100%;
+    color: white;
+    height: 26px;
+    font-family: ProximaNova;
+
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-bottom: 12px;
+  }
+  .banner1-heading2 {
+    margin-top: 0px;
+    color: white;
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    height: 64px;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .banner1-innerstuff {
+    margin-top: 8px;
+    margin-bottom: 23px;
+    /* background-color: red; */
+  }
+
+  /* banner2 */
+  .banner2-text {
+    margin-top: 18px;
+  }
+  .banner2-heading1 {
+    height: 24px;
+    width: 100%;
+    text-align: center;
+    font-family: ProximaNova;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #613497;
+    margin-bottom: 11px;
+  }
+  .banner2-heading2 {
+    width: 100%;
+    height: 80px;
+
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d1b44;
+    margin-bottom: 15px;
+  }
+  .banner2 .row {
+    margin-bottom: 61.3px;
+  }
+
+  /* banner3 */
+  .banner3-heading1 {
+    margin-top: 10px;
+  }
+  .banner3-heading1-1 {
+    width: 100%;
+    height: 24px;
+
+    font-family: ProximaNova;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+  }
+  .banner3-heading1-2 {
+    width: 100%;
+    height: 24px;
+
+    font-family: ProximaNova;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+  }
+  .dot-line {
+    display: none;
+  }
+
+  .banner3-heading2 {
+    margin-top: 23px;
+  }
+  .banner3-heading2-1 {
+    height: 48px;
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: white;
+  }
+  .banner3-heading2-2 {
+    margin-top: 23px;
+
+    width: 132px;
+    height: 30px;
+
+    padding: 5px 15px 8px 13px;
+    border-radius: 4px;
+    border: solid 1px white;
+  }
+  .banner3-heading2-2 {
+    width: 132px;
+    padding: 5px 0px 5px 13px;
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+  }
+  .readmore {
+    text-transform: capitalize;
+    width: 68px;
+    height: 17px;
+    margin: 0 8px 0 0;
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+  }
+  .banner3-heading2-2::after {
+    content: url(Images_PNGS/line-copy-2.png);
+    height: 3px;
+    width: 30px;
+    color: white;
+    position: relative;
+    bottom: 15px;
+    right: -65px;
+    width: 22px;
+    height: 2px;
+  }
+  .banner3-image {
+    width: 100%;
+  }
+
+  /* banner4 */
+  .banner4-heading1 {
+    display: none;
+  }
+  .banner4-heading2 {
+    display: none;
+  }
+
+  /* banner5  */
+  .banner5-item-image {
+    width: 100%;
+  }
+
+  /* banner6 */
+  .banner6-heading {
+    margin-top: 33px;
+
+    width: 100%;
+    height: 76px;
+
+    font-family: ProximaNova;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+  }
+
+  .form-btn {
+    display: none;
+  }
+
+  /* footer */
+  .contactus {
+    margin-top: 23px;
+
+    height: 19px;
+
+    opacity: 0.6;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+    margin-bottom: 28px;
+  }
+  .address {
+    height: 26px;
+
+    opacity: 0.6;
+    font-family: Lato;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+  }
+  .phno {
+    height: 13px;
+    opacity: 0.6;
+    font-family: ProximaNova;
+    font-size: 11px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+  }
+  .email {
+    height: 13px;
+    opacity: 0.6;
+    font-family: ProximaNova;
+    font-size: 11px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+  }
+  .followus {
+    margin-top: 33px;
+
+    height: 19px;
+
+    opacity: 0.6;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+    margin-bottom: 24px;
+  }
+  .lower-footer-text {
+    height: 13px;
+    font-family: ProximaNova;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
